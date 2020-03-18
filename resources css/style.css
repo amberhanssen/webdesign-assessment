@@ -3,6 +3,8 @@
 /*-----------------Global Deafults */
 body{
     background-color: coral;    
+    box-sizing: border-box;
+
     } 
 img 
 {max-width: 100%;}
@@ -28,10 +30,23 @@ font-size: 20px; }
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
-/*-----------------Headings */
+/*-----------------Header */
+
+header {
+    background-color: blueviolet;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    margin-top: 0cm;
+}
 
 
 
