@@ -1,10 +1,15 @@
 /*-----------------Variables */
+:root {
+    --main-bg-color:  coral; 
+
+    --vertical-spacer: 20px; 
+}
 
 /*-----------------Global Deafults */
 body{
     background-color: coral;    
     box-sizing: border-box;
-
+    line-height: 1.4px;
     } 
 img 
 {max-width: 100%;}
@@ -22,6 +27,8 @@ font-weight: 600;
 p {color: rgb(255, 255, 255);
 font-family: 'Patrick Hand', cursive;
 font-size: 20px; }
+
+
 
 
 /*-----------------Layouts */
@@ -49,16 +56,66 @@ header h1 {
 }
 
 
-
-/*-----------------Modules */
-
-
-
 /*-----------------Footer */
 
 
 
+/*-----------------Modules */
 
+.news-component {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+    padding: 3%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.news-component h2 {
+    color:  rgb(255, 80, 182);  }
+
+
+.news-component img {
+    float: left;
+    margin-right: 20px;
+}
+
+.news-component-offset {
+    background-color: #999;
+}
+
+.news-component-offset img {
+    float:right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.news-component-image-only {
+    display: flex;
+    justify-content: center;
+}
+
+.news-component-image-only img {
+    margin-right: 0;
+    float: none;
+}
+
+.news-component-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+
+
+
+@media screen and (min-width: 500px) {
+    .news-componenet-colums {
+        grid-template-columns: 1fr;
+        background-color: blueviolet;
+    }
+}
 
 
 
