@@ -136,14 +136,16 @@ text-align: center;
     top: 0;
     
     background-color: var(--alternate-bg-color);
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 0cm;
+    padding-right: 0cm;
 }
 
 .navigation .content {
     margin-top: 0;
     margin-right: 5cm;
-    margin-right: 5;
+    margin-right: 5cm;
     padding: 10;
     list-style: none;
     text-align: center;
