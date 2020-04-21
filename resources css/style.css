@@ -1,10 +1,6 @@
 /*-----------------Variables */
 :root {
     --main-bg-color:#e7695f; 
-
-    
-    --body-padder: 20%;
-
     --alternate-bg-color: #ea754b;
 
     --link-colour: rgb(255, 0, 221);
@@ -16,6 +12,14 @@
 
 /* -------------------- GLOBAL DEFAULTS */ 
 
+.header-logo
+{ padding-left: 0cm;
+    padding-right: 0cm;
+    padding-top: 0cm;
+    padding-bottom: 0cm;
+
+}
+
 html {
 
 }
@@ -25,7 +29,7 @@ body {
 
     background-position: 0 0;
 
-    background-size: 80%;
+    background-size: 100%;
 
     background-attachment: fixed; 
 
@@ -36,6 +40,11 @@ body {
 
     box-sizing:border-box;
     box-decoration-break: slice;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
 }
 
 img,
