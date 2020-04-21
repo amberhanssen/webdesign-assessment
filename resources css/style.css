@@ -208,4 +208,4 @@ footer {
 .news-component-columns {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px; }
+    grid-gap: 20px;
