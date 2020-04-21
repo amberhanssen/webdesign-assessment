@@ -138,12 +138,12 @@ text-align: center;
     background-color: var(--alternate-bg-color);
     padding-bottom: 10px;
     padding-top: 10px;
-    padding-left: 0cm;
-    padding-right: 0cm;
 }
 
 .navigation .content {
     margin-top: 0;
+    margin-right: 5cm;
+    margin-left: 5cm;
     padding: 0;
     list-style: none;
     text-align: center;
