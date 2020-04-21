@@ -32,6 +32,25 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    background-color:#ee4fac;
+        padding: 0;
+        text-align: left;}
+
+ h1{ 
+        background-color:#ee4fac;
+            padding: 0;
+            text-align: left;}
+
+h2{ 
+    background-color:#ee4fac;
+        padding: 0;
+        text-align: left;}
+
+h3
+{  background-color:#ee4fac;
+        padding: 0;
+        text-align: left;}
 img,
 iframe,
 video,
@@ -54,10 +73,6 @@ img {
     padding: 30px 0; }
 
 
-p {
-background-color:#ee4fac;
-    padding: 0;
-    text-align: left;}
 
     h1 {
         font-size: 50px;
