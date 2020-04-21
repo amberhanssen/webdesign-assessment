@@ -22,22 +22,19 @@ html {
 }
 
 body {
-    background-color: var(--main-bg-color);
-
-    /* background-image: url(../images/two-green-cactus-plants.jpg);
-    background-repeat: no-repeat;
+    background-color: #de3d9a;
 
     background-position: 0 0;
 
     background-size: 100%;
 
-    background-attachment: fixed; */
+    background-attachment: fixed; 
 
 
     font-family: Arial, Helvetica, sans-serif;
-    color: #666;
-    font-size: 18px;
-    line-height: 1.4;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
 
     box-sizing: border-box;
 }
@@ -63,47 +60,7 @@ h1,
 h2,
 h3 {
     font-family: 'Righteous', cursive;
-    color: #222;
-}
-
-h1 {
-    font-size: 44px;
-}
-
-h2 {
-    font-size: 36px;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-p {
-
-    /* wowsers this is broken- why? */
-    
-}
-
-a {
-    color: var(--link-colour);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--hover-colour);
-    text-decoration: underline;
-  
-}
-
-.emphasised-text {
-  
-    text-decoration: underline;
-}
-
-.section-header {
-    background-color: yellow;
-    padding: 20px 0;
-    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -210,7 +167,7 @@ footer {
     padding-bottom: var(--vertical-spacer);
 
     text-align: center;
-    color: #fff;
+    color: #e97051;
 }
 
 
