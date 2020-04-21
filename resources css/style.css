@@ -121,51 +121,6 @@ text-align: center;
     color:#ffffff;
 }
 
-header a {
-    text-decoration: none;
-}
-
-.header-logo img {
-    max-width: 100px;
-}
-
-.header-heading {
-    font-size: 32px;
-}
-
-.header-sub-heading {
-    font-size: 20px;
-}
-
-@media screen and (min-width: 800px) {
-
-    header {
-        text-align: left;
-    }
-
-    .header-heading {
-        font-size: 56px;
-    }
-
-    .header-logo img {
-        max-width: 200px;
-    }
-
-    header .content {
-        display: grid;
-        grid-template-columns: 200px auto;
-    }
-
-    .header-text {
-        text-align: right;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-
-}
-
 
 
 
