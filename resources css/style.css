@@ -52,8 +52,7 @@ img {
 
 .section-header {
     background-color:#e7695f;
-    padding: 30px 0;
-    text-align: center;}
+    padding: 30px 0; }
 
 
 .body {
@@ -61,7 +60,10 @@ background-color:#e7695f;
     padding: 30px 0;
     text-align: center;}
 
-
+.content {
+background-color:#e7695f;
+    padding: 30px 0;
+    text-align: center;}
 
 /* -------------------- LAYOUTS */ 
 .content {
