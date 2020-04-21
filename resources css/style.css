@@ -1,16 +1,16 @@
 /* -------------------- VARIABLES */ 
 
 :root {
-    --main-bg-color: #f1f1f1;
+    --main-bg-color: #e97051;
 
     --vertical-spacer: 20px;
 
     --padder: 3%;
 
-    --alternate-bg-color: #191931;
+    --alternate-bg-color: #ffffff ;
 
-    --link-colour: rgb(107, 8, 8);
-    --hover-colour: #000;
+    --link-colour: rgb(209, 0, 129);
+    --hover-colour: rgb(235, 144, 42);
 
     scroll-behavior: smooth;
 }
