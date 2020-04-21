@@ -20,8 +20,8 @@
 html {
 
 }
-h1 {
-    font-size: 30px;
+h1 h2 h3  {
+    font-size: 300px;
     padding: 10px;
     color: #f5d441;
     box-sizing: border-box;
