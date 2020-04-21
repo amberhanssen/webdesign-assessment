@@ -22,7 +22,6 @@ html {
 }
 
 body {
-    background-color: #de3d9a;
 
     background-position: 0 0;
 
@@ -81,7 +80,7 @@ h3 {
 /* -------------------- HEADER */ 
 
 header {
-    background-color: var(--alternate-bg-color);
+    background-color: #de3d9a;
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
 
@@ -155,7 +154,7 @@ header a {
 }
 
 .navigation a {
-    color: #fff;
+    color: #e97051;
 }
 
 
