@@ -74,7 +74,7 @@ a:hover {
 
 header {
     background-color: blueviolet;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -120,6 +120,8 @@ footer {
     background-color: var(--alternate-bg-color);
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
+    color: blueviolet;
+    text-emphasis: center;
 }
 
 
@@ -171,16 +173,28 @@ footer {
     grid-gap: 20px;
 }
 
+/* image gallery */ 
 
+.gallery {
 
-
-@media screen and (min-width: 500px) {
-    .news-componenet-colums {
-        grid-template-columns: 1fr;
-        background-color: blueviolet;
-    }
 }
 
+.gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--vertical-spacer);
+}
+
+.gallery-images img {
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+
+    .gallery-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
 
 
 
