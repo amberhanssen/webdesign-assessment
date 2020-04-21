@@ -109,6 +109,11 @@ a:hover {
     padding-right: 20%;
 }
 
+.navigation
+
+
+
+
 /*-----------------Header */
 
 header {
@@ -129,6 +134,7 @@ text-align: center;
 .navigation {
     position: sticky;
     top: 0;
+   
 
     background-color: var(--alternate-bg-color);
     padding-bottom: 20px;
@@ -138,12 +144,11 @@ text-align: center;
 .navigation .content {
     margin-top: 20;
     padding: 20;
+    text-align: center;
     list-style: none;
-
     display: flex;
     justify-content: space-between;}
 
-.navigation a { color: #ffffff;}
 
 
 /*-----------------Footer */
