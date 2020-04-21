@@ -75,21 +75,21 @@ img {
 
 
     h1 {
-        font-size: 50px;
+        font-size: 40px;
         padding: 10px;
         font-family: sans-serif;
         font-style: initial;
         color: #f3e190;
-        box-sizing: border-box;
+    background-color: #ee4fac;
         text-decoration: underline;
     }
     h2 {
-        font-size: 50px;
+        font-size: 40px;
         padding: 10px;
         font-family: sans-serif;
         font-style: initial;
         color: #f3e190;
-        box-sizing: border-box;
+        background-color: #ee4fac;
         text-decoration: underline;
     }
     
