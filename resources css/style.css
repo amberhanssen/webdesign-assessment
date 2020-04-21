@@ -1,11 +1,11 @@
 /*-----------------Variables */
 :root {
-    --main-bg-color: rgb(236, 0, 205); 
+    --main-bg-color: rgb(221, 0, 192); 
 
     
     --padder: 3%;
 
-    --alternate-bg-color: rgb(255, 52, 154);
+    --alternate-bg-color: rgb(255, 255, 255);
 
     --link-colour: rgb(255, 0, 221);
     --hover-colour: rgb(255, 102, 0);
@@ -33,7 +33,7 @@ body {
     background-attachment: fixed; */
 
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 52, 154);
+    color: rgb(216, 8, 112);
     font-size: 18px; 
     line-height: 1; 
 
@@ -85,7 +85,7 @@ a:hover {
 
 /*-----------------Layouts */
 .content {
-    background-color: rgb(255, 52, 154);
+    background-color: rgb(209, 9, 109);
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
