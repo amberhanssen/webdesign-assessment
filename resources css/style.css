@@ -39,12 +39,8 @@ body {
     line-height: 1.5; 
 
     box-sizing:border-box;
-    box-decoration-break: slice;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    
+
+
 }
 
 img,
@@ -95,9 +91,8 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 
-    padding-left: 0%;
-    padding-right: 0%;
-}
+    padding-left: var(--padder);
+    padding-right: var(--padder);}
 
 .content
 {background-color: #df4097;
@@ -108,9 +103,6 @@ a:hover {
     padding-left: 20%;
     padding-right: 20%;
 }
-
-.navigation
-
 
 
 
@@ -142,11 +134,9 @@ text-align: center;
 
 .navigation .content {
     margin-top: 0;
-    margin-right: 5cm;
-    margin-left: 5cm;
+
     padding: 0;
-    list-style: none;
-    text-align: center;
+ 
     display: flex;
     justify-content: space-between;}
 
