@@ -21,17 +21,21 @@ html {
 
 }
 
-p {
+body {
     background-color:#e2178d;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-size: 20px;
     line-height: 1.5;
-    text-align: left;
 
     box-sizing: content-box;
 }
+
+p {
+    background-color:#ee4fac;
+        padding: 0;
+        text-align: left;}
 
  h1{ 
         background-color:#ee4fac;
