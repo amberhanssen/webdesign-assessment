@@ -134,7 +134,7 @@ text-align: center;
 .navigation {
     position: sticky;
     top: 0;
-    
+
     background-color: var(--alternate-bg-color);
     padding-bottom: 10px;
     padding-top: 10px;
@@ -146,7 +146,7 @@ text-align: center;
     margin-top: 0;
     margin-right: 5cm;
     margin-right: 5cm;
-    padding: 10;
+    padding: 0;
     list-style: none;
     text-align: center;
     display: flex;
