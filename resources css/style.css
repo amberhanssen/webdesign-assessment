@@ -27,7 +27,7 @@ body {
 
     background-size: 100%;
 
-    background-attachment: fixed;
+    background-attachment: fixed; 
 
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(235, 27, 207); 
@@ -84,7 +84,7 @@ a:hover {
 
 /*-----------------Layouts */
 .content {
-    background-color: rgb(247, 1, 214);
+    background-color: #e3557b;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
