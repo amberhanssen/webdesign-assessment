@@ -3,7 +3,7 @@
     --main-bg-color:#e7695f; 
 
     
-    --padder: 3%;
+    --body-padder: 20%;
 
     --alternate-bg-color: #ea754b;
 
@@ -35,6 +35,7 @@ body {
     line-height: 1.5; 
 
     box-sizing:border-box;
+    box-decoration-break: slice;
 }
 
 img,
