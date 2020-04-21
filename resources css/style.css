@@ -66,12 +66,16 @@ background-color:#ee4fac;
         font-style: initial;
         color: #f3e190;
         box-sizing: border-box;
+        text-decoration: underline;
     }
     h2 {
-        font-size: 30px;
+        font-size: 50px;
         padding: 10px;
-        color: #f5d441;
+        font-family: sans-serif;
+        font-style: initial;
+        color: #f3e190;
         box-sizing: border-box;
+        text-decoration: underline;
     }
     
     h3  {
