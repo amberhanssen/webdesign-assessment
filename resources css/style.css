@@ -5,7 +5,7 @@
     
     --padder: 3%;
 
-    --alternate-bg-color: #ffffff;
+    --alternate-bg-color: rgb(255, 52, 154);
 
     --link-colour: rgb(255, 0, 221);
     --hover-colour: rgb(255, 102, 0);
@@ -21,6 +21,16 @@ html {
 }
 
 body {
+    background-color: var(--main-bg-color);
+
+    /* background-image: url(../images/two-green-cactus-plants.jpg);
+    background-repeat: no-repeat;
+
+    background-position: 0 0;
+
+    background-size: 100%;
+
+    background-attachment: fixed; */
 
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(190, 6, 214); 
