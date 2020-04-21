@@ -23,7 +23,7 @@ html {
 
 body {
 
-    --main-bg-color: #e9705
+    background-color: #de3d9a ;
 
     background-position: 0 0;
 
@@ -33,7 +33,7 @@ body {
 
 
     font-family: Arial, Helvetica, sans-serif;
-    color: #de3d9a;
+    color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
 
