@@ -60,25 +60,26 @@ background-color:#de3d9a;
     text-align: left;}
 
 p {
-background-color:#de3d9a;
+background-color:#ee4fac;
     padding: 30px 0;
     text-align: left;}
 
     h1 {
-        font-size: 300px;
+        font-size: 30px;
         padding: 10px;
+        font-family: sans-serif;
         color: #f5d441;
         box-sizing: border-box;
     }
     h2 {
-        font-size: 300px;
+        font-size: 30px;
         padding: 10px;
         color: #f5d441;
         box-sizing: border-box;
     }
     
     h3  {
-        font-size: 300px;
+        font-size: 40px;
         padding: 10px;
         color: #f5d441;
         box-sizing: border-box;
