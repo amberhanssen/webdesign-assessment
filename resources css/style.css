@@ -101,17 +101,16 @@ header {
     background-color: var(--alternate-bg-color);
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
-    background-color: rgb(240, 113, 9);
+    background-color:#e7695f;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
 }
 
 header h1 { margin-top: 0cm; }
 
 header a { text-decoration: none;}
 
-.header-logo img { max-width: 100px;}
+.header-logo img { max-width: 1000px;}
 
 .header-heading { font-size: 32px;}
 
@@ -149,8 +148,8 @@ footer {
     background-color: var(--alternate-bg-color);
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
-    color: rgb(240, 113, 9);
-    text-emphasis: center;
+    color:#df4097;
+
 }
 
 /*--------- Buttons */ 
