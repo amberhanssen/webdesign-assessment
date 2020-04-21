@@ -84,16 +84,6 @@ header {
     background-color: #de3d9a;
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
-    width: 1000;
-    height: 1000;
-
-    text-align: center;
-    color: #fff;
-}
-
-
-.header-logo img {
-    max-width: 2000px;
 }
 
 
