@@ -57,12 +57,10 @@ img {
 
 /* -------------------- HEADINGS AND TYPE */ 
 
-h1,
-h2,
-h3 {
-    font-family: 'Righteous', cursive;
-    color: rgb(255, 255, 255);
-}
+.section-header {
+    background-color:#e7695f;
+    padding: 30px 0;
+    text-align: center;}
 
 
 
