@@ -1,13 +1,18 @@
-/*-----------------Variables */
-:root {
-    --main-bg-color:#e7695f; 
-    --alternate-bg-color: #ea754b;
+/* -------------------- VARIABLES */ 
 
-    --link-colour: rgb(255, 0, 221);
-    --hover-colour: rgb(255, 102, 0);
+:root {
+    --main-bg-color: #f1f1f1;
+
+    --vertical-spacer: 20px;
+
+    --padder: 3%;
+
+    --alternate-bg-color: #191931;
+
+    --link-colour: rgb(107, 8, 8);
+    --hover-colour: #000;
 
     scroll-behavior: smooth;
-    --vertical-spacer: 20px; 
 }
 
 /* -------------------- GLOBAL DEFAULTS */ 
@@ -19,18 +24,22 @@ html {
 body {
     background-color: var(--main-bg-color);
 
+    /* background-image: url(../images/two-green-cactus-plants.jpg);
+    background-repeat: no-repeat;
+
     background-position: 0 0;
 
     background-size: 100%;
 
-    background-attachment: fixed; 
+    background-attachment: fixed; */
+
 
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(235, 27, 207); 
-    font-size: 16px; 
-    line-height: 1.5; 
+    color: #666;
+    font-size: 18px;
+    line-height: 1.4;
 
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 img,
@@ -45,82 +54,134 @@ img {
 }
 
 
-    /*-----------------Headings & Types */
-h1, h2, h3 {
-    font-family: 'Patrick Hand';
-    font-size: 40px;
-    color: white;
-font-family: 'Patrick Hand', cursive;
-font-weight: 600;
+
+
+
+/* -------------------- HEADINGS AND TYPE */ 
+
+h1,
+h2,
+h3 {
+    font-family: 'Righteous', cursive;
+    color: #222;
 }
 
-h1 {font-size: 40px;}
-h2 {font-size: 35;}
-h3 {font-size: 25;}
+h1 {
+    font-size: 44px;
+}
 
-p {color: #ffffff;
-font-family: sans-serif;
-font-size: 20px; 
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+
+    /* wowsers this is broken- why? */
+    
 }
 
 a {
     color: var(--link-colour);
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 a:hover {
     color: var(--hover-colour);
-    text-decoration: underline;}
+    text-decoration: underline;
+  
+}
+
+.emphasised-text {
+  
+    text-decoration: underline;
+}
+
+.section-header {
+    background-color: yellow;
+    padding: 20px 0;
+    text-align: center;
+}
 
 
 
-
-/*-----------------Layouts */
-.header {
-    background-color: #e7695f;
-    max-width: 2000px;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-left: var(--padder);
-    padding-right: var(--padder);}
-
-.content
-{background-color: #df4097;
+/* -------------------- LAYOUTS */ 
+.content {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 
     padding-left: var(--padder);
     padding-right: var(--padder);
+
 }
 
 
 
-/*-----------------Header */
+/* -------------------- HEADER */ 
 
 header {
     background-color: var(--alternate-bg-color);
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
 
+    text-align: center;
+    color: #fff;
+}
 
-    @media screen and (min-width: 800px)
-    
-        .header-logo img {
-            max-width: 2000px; 
-    
-    
+header a {
+    text-decoration: none;
+}
 
+.header-logo img {
+    max-width: 100px;
+}
 
+.header-heading {
+    font-size: 32px;
+}
 
+.header-sub-heading {
+    font-size: 20px;
+}
 
+@media screen and (min-width: 800px) {
 
-/* --------------- NAVIGATION */ 
+    header {
+        text-align: left;
+    }
+
+    .header-heading {
+        font-size: 56px;
+    }
+
+    .header-logo img {
+        max-width: 200px;
+    }
+
+    header .content {
+        display: grid;
+        grid-template-columns: 200px auto;
+    }
+
+    .header-text {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+}
+
+/* -------------------- NAVIGATION */ 
 
 .navigation {
     position: sticky;
     top: 0;
-    text-align: center;
 
     background-color: var(--alternate-bg-color);
     padding-bottom: 10px;
@@ -137,12 +198,11 @@ header {
 }
 
 .navigation a {
-    color: #ffffff;
+    color: #fff;
 }
 
 
-
-/*-----------------Footer */
+/* -------------------- FOOTER */ 
 
 footer {
     background-color: var(--alternate-bg-color);
@@ -150,17 +210,18 @@ footer {
     padding-bottom: var(--vertical-spacer);
 
     text-align: center;
-    color: #fff;}
+    color: #fff;
+}
 
 
-/*--------- Buttons */ 
+
+/* BUTTONS */ 
 
 .back-top a {
     background-color: var(--alternate-bg-color);
     color: var(--main-bg-color);
     padding: var(--padder);
 }
-
 /* -------------------- MODULES */
 
 main a img {
@@ -266,3 +327,29 @@ main a:hover img {
    } 
 
 }
+
+
+/* image gallery */ 
+
+.gallery {
+
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--vertical-spacer);
+}
+
+.gallery-images img {
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+
+    .gallery-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
+
+
