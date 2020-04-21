@@ -60,7 +60,7 @@ background-color:#e7695f;
     padding: 30px 0;
     text-align: center;}
 
-.content {
+.paragraph {
 background-color:#e7695f;
     padding: 30px 0;
     text-align: center;}
@@ -91,30 +91,9 @@ header {
 
 
 .header-logo img {
-    max-width: 1000px;
+    max-width: 2000px;
 }
 
-.header-heading {
-    font-size: 32px;
-}
-
-.header-sub-heading {
-    font-size: 20px;
-}
-
-@media screen and (min-width: 800px) {
-
-    .header-heading {
-        font-size: 56px;
-    }
-
-    .header-logo img {
-        max-width: 2000px;
-    }
-
- 
-
-}
 
 /* -------------------- NAVIGATION */ 
 
