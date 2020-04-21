@@ -111,7 +111,7 @@ header {
     @media screen and (min-width: 800px)
     
         .header-logo img {
-            max-width: 200px; }
+            max-width: 200px; 
     
         
 .content { display: grid;
