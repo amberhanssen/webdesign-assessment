@@ -49,6 +49,7 @@ header {
     background-color: blueviolet;
     padding-top: 100px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 header h1 {
@@ -57,6 +58,12 @@ header h1 {
 
 
 /*-----------------Footer */
+
+footer {
+    background-color: var(--alternate-bg-color);
+    padding-top: var(--vertical-spacer);
+    padding-bottom: var(--vertical-spacer);
+}
 
 
 
