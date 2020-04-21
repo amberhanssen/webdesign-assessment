@@ -7,7 +7,7 @@
 
     --padder: 3%;
 
-    --alternate-bg-color: #ffffff ;
+    --alternate-bg-color: #e97051 ;
 
     --link-colour: rgb(209, 0, 129);
     --hover-colour: rgb(235, 144, 42);
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    
+
     --main-bg-color: #e9705
 
     background-position: 0 0;
