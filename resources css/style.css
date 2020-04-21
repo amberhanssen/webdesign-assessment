@@ -8,7 +8,6 @@
 
     scroll-behavior: smooth;
     --vertical-spacer: 20px; 
-    --padder: 3%;
 }
 
 /* -------------------- GLOBAL DEFAULTS */ 
@@ -22,7 +21,7 @@ body {
 
     background-position: 0 0;
 
-    background-size: 1000%;
+    background-size: 100%;
 
     background-attachment: fixed; 
 
@@ -54,7 +53,7 @@ h1, h2, h3 {
     font-size: 40px;
     color: white;
 font-family: 'Patrick Hand', cursive;
-font-weight: 500;
+font-weight: 600;
 }
 
 h1 {font-size: 40px;}
@@ -80,7 +79,7 @@ a:hover {
 /*-----------------Layouts */
 .header {
     background-color: #df4097;
-    max-width: 2000px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 
@@ -93,8 +92,8 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 
